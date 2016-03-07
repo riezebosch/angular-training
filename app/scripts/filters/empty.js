@@ -18,6 +18,6 @@ angular.module('angularTrainingApp')
             return [ emptyText ];
         }
       
-      return [ '-asdf' ];
+      return [ 'no data' ];
     };
   });

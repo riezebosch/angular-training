@@ -13,7 +13,7 @@ describe('Filter: empty', function () {
 
   it('should return the input prefixed with "empty filter:"', function () {
     var text = 'angularjs';
-    expect(empty(text)).toBe('empty filter: ' + text);
+    expect(empty(text)).toBe(text);
   });
 
 });

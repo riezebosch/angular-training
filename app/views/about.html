@@ -1,6 +1,6 @@
 <p>This is the about view.</p>
 <ul>
-    <li ng-repeat="item in about.awesomeThings | empty: 'LEEG'">
-        {{ item }} 
+    <li ng-repeat="item in about.awesomeThings | empty: 'EMPTY LIST'">
+        {{ item | lowercase }} 
     </li>
 </ul>
