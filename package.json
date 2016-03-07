@@ -41,6 +41,7 @@
     "test": "karma start test\\karma.conf.js"
   },
   "dependencies": {
-    "grunt-karma": "^0.12.1"
+    "grunt-karma": "^0.12.1",
+    "karma-spec-reporter": "0.0.24"
   }
 }

@@ -15,7 +15,11 @@ angular.module('angularTrainingApp')
             return input;
         }
         if (emptyText !== undefined) {
-            return [ emptyText ];
+            if (Array.isArray(input)) {
+                return [ emptyText ];
+            }
+
+            return emptyText;
         }
       
       return [ 'no data' ];
